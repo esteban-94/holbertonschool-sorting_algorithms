@@ -32,7 +32,7 @@ int division(int *array, int left, int right, size_t size)
 	if (array[right] < array[x + 1])
 	{
 		temp = array[x + 1];
-		array[x +1] = array[right];
+		array[x + 1] = array[right];
 		array[right] = temp;
 		print_array(array, size);
 	}
