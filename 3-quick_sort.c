@@ -6,7 +6,7 @@
  * @size: array´s size.
  * @left: right position.
  * @right: left position.
- * return: x + 1.
+ * Return: x + 1.
 */
 
 int division(int *array, int left, int right, size_t size)
