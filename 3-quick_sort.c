@@ -1,7 +1,12 @@
 #include "sort.h"
 
 /**
- * 
+ * division - the given array around the selected pivot.
+ * @array: number list.
+ * @size: array´s size.
+ * @left: right position.
+ * @right: left position.
+ * return: x + 1.
 */
 
 int division(int *array, int left, int right, size_t size)
@@ -35,7 +40,12 @@ int division(int *array, int left, int right, size_t size)
 }
 
 /**
- * 
+ * quick_sort_part - divide the column into two parts
+ * and align their parts.
+ * @array: number list.
+ * @size: array´s size.
+ * @left: right position.
+ * @right: left position.
 */
 
 void quick_sort_part(int *array, int left, int right, size_t size)
@@ -50,7 +60,9 @@ void quick_sort_part(int *array, int left, int right, size_t size)
 }
 
 /**
- * 
+ * quick_sort - sorts an array of integers in ascending order.
+ * @array: number list.
+ * @size: array´s size.
 */
 
 void quick_sort(int *array, size_t size)
